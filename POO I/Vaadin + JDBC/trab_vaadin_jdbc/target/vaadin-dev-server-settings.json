@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "D:/Usuários/Yduan/Desktop/Trabalho POO Vaadin/flow-crm-tutorial-3/./frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "D:/Usuários/Yduan/Desktop/Trabalho POO Vaadin/flow-crm-tutorial-3/./frontend/generated/jar-resources",
+  "staticOutput": "D:/Usuários/Yduan/Desktop/Trabalho POO Vaadin/flow-crm-tutorial-3/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "D:\\Usuários\\Yduan\\Desktop\\Trabalho POO Vaadin\\flow-crm-tutorial-3\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "D:\\Usuários\\Yduan\\Desktop\\Trabalho POO Vaadin\\flow-crm-tutorial-3\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "D:/Usuários/Yduan/Desktop/Trabalho POO Vaadin/flow-crm-tutorial-3/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "D:/Usuários/Yduan/Desktop/Trabalho POO Vaadin/flow-crm-tutorial-3/src/main/dev-bundle/config",
+  "jarResourcesFolder": "D:/Usuários/Yduan/Desktop/Trabalho POO Vaadin/flow-crm-tutorial-3/./frontend/generated/jar-resources",
+  "themeName": "",
+  "clientServiceWorkerSource": "D:\\Usuários\\Yduan\\Desktop\\Trabalho POO Vaadin\\flow-crm-tutorial-3\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

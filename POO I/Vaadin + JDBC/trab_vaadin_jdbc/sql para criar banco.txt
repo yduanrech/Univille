@@ -1,0 +1,45 @@
+CREATE DATABASE IF NOT EXISTS aplicacao;
+USE aplicacao;
+
+-- Creating the STATUS table
+CREATE TABLE STATUS (
+    ID INT PRIMARY KEY,
+    VERSION INT,
+    NAME VARCHAR(255)
+);
+
+-- Creating the COMPANY table
+CREATE TABLE COMPANY (
+    ID INT PRIMARY KEY,
+    VERSION INT,
+    NAME VARCHAR(255)
+);
+
+-- Creating the CONTACT table
+CREATE TABLE CONTACT (
+    ID INT PRIMARY KEY,
+    VERSION INT,
+    EMAIL VARCHAR(255),
+    FIRST_NAME VARCHAR(255),
+    LAST_NAME VARCHAR(255),
+    COMPANY_ID INT,
+    STATUS_ID INT,
+    FOREIGN KEY (COMPANY_ID) REFERENCES COMPANY(ID),
+    FOREIGN KEY (STATUS_ID) REFERENCES STATUS(ID)
+);
+
+INSERT INTO `STATUS` (ID, VERSION, NAME) VALUES
+(1, 1, 'Masculino'),
+(2, 1, 'Feminino'),
+(3, 1, 'Helicoptero de Combate'),
+(4, 1, 'Prefio nao dizer');
+
+INSERT INTO `COMPANY` (ID, VERSION, NAME) VALUES
+(6, 1, 'Solteiro'),
+(7, 1, 'Uniao Estavel'),
+(8, 1, 'Casado'),
+(9, 1, 'Divorciado');
+
+SELECT * FROM STATUS;
+SELECT * FROM CONTACT;
+SELECT * FROM COMPANY;
